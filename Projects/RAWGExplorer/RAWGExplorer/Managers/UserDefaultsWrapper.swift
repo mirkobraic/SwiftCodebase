@@ -26,10 +26,10 @@ struct UserDefault<Value> {
             } else {
                 container.set(newValue, forKey: key)
             }
+            publisher.send(newValue)
         }
     }
 
-    
     var projectedValue: AnyPublisher<Value, Never> {
         return publisher.eraseToAnyPublisher()
     }
@@ -43,19 +43,15 @@ struct UserDefault<Value> {
 //    // Prints: New username: Test
 }
 
-/// Allows to match for optionals with generics that are defined as non-optional.
 public protocol AnyOptional {
-    /// Returns `true` if `nil`, otherwise `false`.
     var isNil: Bool { get }
 }
+
 extension Optional: AnyOptional {
     public var isNil: Bool { self == nil }
 }
 
 extension UserDefault where Value: ExpressibleByNilLiteral {
-    /// Creates a new User Defaults property wrapper for the given key.
-    /// - Parameters:
-    ///   - key: The key to use with the user defaults store.
     init(key: String, _ container: UserDefaults = .standard) {
         self.init(key: key, defaultValue: nil, container: container)
     }
