@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		963883AC2A66BA6D001B0FA4 /* _01WeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963883AB2A66BA6D001B0FA4 /* _01WeSplitApp.swift */; };
-		963883AE2A66BA6D001B0FA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963883AD2A66BA6D001B0FA4 /* ContentView.swift */; };
-		963883B02A66BA6F001B0FA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963883AF2A66BA6F001B0FA4 /* Assets.xcassets */; };
-		963883B32A66BA6F001B0FA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963883B22A66BA6F001B0FA4 /* Preview Assets.xcassets */; };
+		969EF0482A67FA9A00123455 /* s02GuessTheFlagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969EF0472A67FA9A00123455 /* s02GuessTheFlagApp.swift */; };
+		969EF04A2A67FA9A00123455 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969EF0492A67FA9A00123455 /* ContentView.swift */; };
+		969EF04C2A67FA9B00123455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 969EF04B2A67FA9B00123455 /* Assets.xcassets */; };
+		969EF04F2A67FA9B00123455 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 969EF04E2A67FA9B00123455 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		963883A82A66BA6D001B0FA4 /* 101WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 101WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		963883AB2A66BA6D001B0FA4 /* _01WeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _01WeSplitApp.swift; sourceTree = "<group>"; };
-		963883AD2A66BA6D001B0FA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		963883AF2A66BA6F001B0FA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		963883B22A66BA6F001B0FA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		969EF0442A67FA9A00123455 /* s02GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = s02GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		969EF0472A67FA9A00123455 /* s02GuessTheFlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s02GuessTheFlagApp.swift; sourceTree = "<group>"; };
+		969EF0492A67FA9A00123455 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		969EF04B2A67FA9B00123455 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		969EF04E2A67FA9B00123455 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		963883A52A66BA6D001B0FA4 /* Frameworks */ = {
+		969EF0412A67FA9A00123455 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9638839F2A66BA6D001B0FA4 = {
+		969EF03B2A67FA9900123455 = {
 			isa = PBXGroup;
 			children = (
-				963883AA2A66BA6D001B0FA4 /* 101WeSplit */,
-				963883A92A66BA6D001B0FA4 /* Products */,
+				969EF0462A67FA9A00123455 /* s02GuessTheFlag */,
+				969EF0452A67FA9A00123455 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		963883A92A66BA6D001B0FA4 /* Products */ = {
+		969EF0452A67FA9A00123455 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				963883A82A66BA6D001B0FA4 /* 101WeSplit.app */,
+				969EF0442A67FA9A00123455 /* s02GuessTheFlag.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		963883AA2A66BA6D001B0FA4 /* 101WeSplit */ = {
+		969EF0462A67FA9A00123455 /* s02GuessTheFlag */ = {
 			isa = PBXGroup;
 			children = (
-				963883AB2A66BA6D001B0FA4 /* _01WeSplitApp.swift */,
-				963883AD2A66BA6D001B0FA4 /* ContentView.swift */,
-				963883AF2A66BA6F001B0FA4 /* Assets.xcassets */,
-				963883B12A66BA6F001B0FA4 /* Preview Content */,
+				969EF0472A67FA9A00123455 /* s02GuessTheFlagApp.swift */,
+				969EF0492A67FA9A00123455 /* ContentView.swift */,
+				969EF04B2A67FA9B00123455 /* Assets.xcassets */,
+				969EF04D2A67FA9B00123455 /* Preview Content */,
 			);
-			path = 101WeSplit;
+			path = s02GuessTheFlag;
 			sourceTree = "<group>";
 		};
-		963883B12A66BA6F001B0FA4 /* Preview Content */ = {
+		969EF04D2A67FA9B00123455 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				963883B22A66BA6F001B0FA4 /* Preview Assets.xcassets */,
+				969EF04E2A67FA9B00123455 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		963883A72A66BA6D001B0FA4 /* 101WeSplit */ = {
+		969EF0432A67FA9A00123455 /* s02GuessTheFlag */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 963883B62A66BA6F001B0FA4 /* Build configuration list for PBXNativeTarget "101WeSplit" */;
+			buildConfigurationList = 969EF0522A67FA9B00123455 /* Build configuration list for PBXNativeTarget "s02GuessTheFlag" */;
 			buildPhases = (
-				963883A42A66BA6D001B0FA4 /* Sources */,
-				963883A52A66BA6D001B0FA4 /* Frameworks */,
-				963883A62A66BA6D001B0FA4 /* Resources */,
+				969EF0402A67FA9A00123455 /* Sources */,
+				969EF0412A67FA9A00123455 /* Frameworks */,
+				969EF0422A67FA9A00123455 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = 101WeSplit;
-			productName = 101WeSplit;
-			productReference = 963883A82A66BA6D001B0FA4 /* 101WeSplit.app */;
+			name = s02GuessTheFlag;
+			productName = s02GuessTheFlag;
+			productReference = 969EF0442A67FA9A00123455 /* s02GuessTheFlag.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		963883A02A66BA6D001B0FA4 /* Project object */ = {
+		969EF03C2A67FA9900123455 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					963883A72A66BA6D001B0FA4 = {
+					969EF0432A67FA9A00123455 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 963883A32A66BA6D001B0FA4 /* Build configuration list for PBXProject "101WeSplit" */;
+			buildConfigurationList = 969EF03F2A67FA9900123455 /* Build configuration list for PBXProject "s02GuessTheFlag" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 9638839F2A66BA6D001B0FA4;
-			productRefGroup = 963883A92A66BA6D001B0FA4 /* Products */;
+			mainGroup = 969EF03B2A67FA9900123455;
+			productRefGroup = 969EF0452A67FA9A00123455 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				963883A72A66BA6D001B0FA4 /* 101WeSplit */,
+				969EF0432A67FA9A00123455 /* s02GuessTheFlag */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		963883A62A66BA6D001B0FA4 /* Resources */ = {
+		969EF0422A67FA9A00123455 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				963883B32A66BA6F001B0FA4 /* Preview Assets.xcassets in Resources */,
-				963883B02A66BA6F001B0FA4 /* Assets.xcassets in Resources */,
+				969EF04F2A67FA9B00123455 /* Preview Assets.xcassets in Resources */,
+				969EF04C2A67FA9B00123455 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		963883A42A66BA6D001B0FA4 /* Sources */ = {
+		969EF0402A67FA9A00123455 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				963883AE2A66BA6D001B0FA4 /* ContentView.swift in Sources */,
-				963883AC2A66BA6D001B0FA4 /* _01WeSplitApp.swift in Sources */,
+				969EF04A2A67FA9A00123455 /* ContentView.swift in Sources */,
+				969EF0482A67FA9A00123455 /* s02GuessTheFlagApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		963883B42A66BA6F001B0FA4 /* Debug */ = {
+		969EF0502A67FA9B00123455 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		963883B52A66BA6F001B0FA4 /* Release */ = {
+		969EF0512A67FA9B00123455 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,14 +259,14 @@
 			};
 			name = Release;
 		};
-		963883B72A66BA6F001B0FA4 /* Debug */ = {
+		969EF0532A67FA9B00123455 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"101WeSplit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"s02GuessTheFlag/Preview Content\"";
 				DEVELOPMENT_TEAM = UU35Z6M9TZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -280,7 +280,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mirkobraic.-01WeSplit";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mirkobraic.s02GuessTheFlag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -288,14 +288,14 @@
 			};
 			name = Debug;
 		};
-		963883B82A66BA6F001B0FA4 /* Release */ = {
+		969EF0542A67FA9B00123455 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"101WeSplit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"s02GuessTheFlag/Preview Content\"";
 				DEVELOPMENT_TEAM = UU35Z6M9TZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -309,7 +309,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mirkobraic.-01WeSplit";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mirkobraic.s02GuessTheFlag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		963883A32A66BA6D001B0FA4 /* Build configuration list for PBXProject "101WeSplit" */ = {
+		969EF03F2A67FA9900123455 /* Build configuration list for PBXProject "s02GuessTheFlag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				963883B42A66BA6F001B0FA4 /* Debug */,
-				963883B52A66BA6F001B0FA4 /* Release */,
+				969EF0502A67FA9B00123455 /* Debug */,
+				969EF0512A67FA9B00123455 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		963883B62A66BA6F001B0FA4 /* Build configuration list for PBXNativeTarget "101WeSplit" */ = {
+		969EF0522A67FA9B00123455 /* Build configuration list for PBXNativeTarget "s02GuessTheFlag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				963883B72A66BA6F001B0FA4 /* Debug */,
-				963883B82A66BA6F001B0FA4 /* Release */,
+				969EF0532A67FA9B00123455 /* Debug */,
+				969EF0542A67FA9B00123455 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 963883A02A66BA6D001B0FA4 /* Project object */;
+	rootObject = 969EF03C2A67FA9900123455 /* Project object */;
 }

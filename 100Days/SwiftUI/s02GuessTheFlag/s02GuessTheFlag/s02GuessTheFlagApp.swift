@@ -1,14 +1,14 @@
 //
-//  _01WeSplitApp.swift
-//  101WeSplit
+//  s02GuessTheFlagApp.swift
+//  s02GuessTheFlag
 //
-//  Created by Mirko Braic on 18.07.2023..
+//  Created by Mirko Braic on 19.07.2023..
 //
 
 import SwiftUI
 
 @main
-struct _01WeSplitApp: App {
+struct s02GuessTheFlagApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
