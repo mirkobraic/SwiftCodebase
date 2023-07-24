@@ -16,6 +16,9 @@ struct ContentView: View {
 
     @State private var score = 0
 
+    @State private var buttonTappedIndex: Int?
+    @State private var spinAnimationAmounts = [0.0, 0.0, 0.0]
+
     var body: some View {
         ZStack {
             RadialGradient(stops: [
@@ -41,12 +44,18 @@ struct ContentView: View {
                     ForEach(0..<3) { number in
                         Button {
                             flagTapped(number)
+                            withAnimation {
+                                spinAnimationAmounts[number] += 360
+                                buttonTappedIndex = number
+                            }
                         } label: {
                             Image(countries[number])
                                 .renderingMode(.original)
                                 .clipShape(Capsule())
                                 .shadow(radius: 5)
                         }
+                        .rotation3DEffect(.degrees(spinAnimationAmounts[number]), axis: (x: 0, y: 1, z: 0))
+                        .opacity(buttonTappedIndex == nil ? 1 : (number == buttonTappedIndex ? 1 : 0.25))
                     }
                 }
                 .frame(maxWidth: .infinity)
@@ -83,6 +92,9 @@ struct ContentView: View {
     }
 
     func askQuestion() {
+        withAnimation {
+            buttonTappedIndex = nil
+        }
         countries.shuffle()
         correctAnswer = Int.random(in: 0...2)
     }
