@@ -46,6 +46,7 @@ class ViewController: UICollectionViewController {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: LabeledCell.defaultReuseIdentifier, for: indexPath) as! LabeledCell
             cell.backgroundColor = sectionColors[indexPath.section]
             cell.label.text = String(repeating: "=", count: Int.random(in: 2...8))
+
             return cell
         } else if indexPath.section == 6 {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: UICollectionViewListCell.defaultReuseIdentifier, for: indexPath) as! UICollectionViewListCell

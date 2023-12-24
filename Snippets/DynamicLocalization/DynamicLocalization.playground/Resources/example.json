@@ -1,0 +1,218 @@
+{
+    "menu": {
+        "home": {
+            "en": "Home",
+            "mk": "Почетна",
+            "bs": "Početna",
+            "sq": "Faqja kryesore"
+        },
+        "live": {
+            "en": "TV Channels",
+            "mk": "ТВ канали",
+            "bs": "TV kanali",
+            "sq": "Kanalet e TV"
+        },
+        "my_content": {
+            "en": "My content",
+            "mk": "Моја содржина",
+            "bs": "Moj sadržaj",
+            "sq": "Përmbajtja ime"
+        },
+        "catalog": {
+            "en": "VOD",
+            "mk": "Видеотека",
+            "bs": "Videoteka",
+            "sq": "VOD"
+        },
+        "epg": {
+            "en": "EPG",
+            "mk": "ТВ водич",
+            "bs": "TV vodič",
+            "sq": "GUIDA"
+        },
+        "app_switch": {
+            "en": "Apps",
+            "mk": "Апликации",
+            "bs": "Aplikacije",
+            "sq": "Aplikacionet"
+        },
+        "user": {
+            "en": "Profile",
+            "mk": "Поставки",
+            "bs": "Postavke",
+            "sq": "Profilet"
+        },
+        "logout": {
+            "en": "Logout",
+            "mk": "Одјава",
+            "bs": "Odjava",
+            "sq": "Dil"
+        }
+    },
+    "landing_page": {
+        "register": {
+            "en": "Register",
+            "mk": "Регистрација",
+            "bs": "Registracija",
+            "sq": "Regjistrohu"
+        },
+        "login": {
+            "en": "Login",
+            "mk": "Најава",
+            "bs": "Prijava",
+            "sq": "Hyr"
+        },
+        "free_trial": {
+            "en": "",
+            "mk": "",
+            "bs": "",
+            "sq": ""
+        },
+        "packet_selection_title": {
+            "en": "Select the appropriate package and subscription type",
+            "mk": "Изберете го соодветниот пакет и видот на претплата",
+            "bs": "Odaberite odgovarajući paket i vrstu pretplate",
+            "sq": "Zgjidhni paketën e duhur dhe llojin e abonimit"
+        },
+        "packet_selection": {
+            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+            "mk": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+            "bs": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+            "sq": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+        },
+        "new_content": {
+            "en": "Newest",
+            "mk": "Најнови",
+            "bs": "Najnoviji",
+            "sq": "Më të rejat"
+        },
+        "movies": {
+            "en": "Movies",
+            "mk": "Филмови",
+            "bs": "Filmovi",
+            "sq": "Filma"
+        },
+        "tvshows": {
+            "en": "TV Shows",
+            "mk": "Серии",
+            "bs": "Serije",
+            "sq": "Seriale"
+        },
+        "new_tvshows": {
+            "en": "Newest",
+            "mk": "Нови",
+            "bs": "Nove",
+            "sq": "Të reja"
+        },
+        "kids_channel": {
+            "en": "Kids channel",
+            "mk": "Детски програми",
+            "bs": "Dječiji program",
+            "sq": "Programe për fëmijë"
+        },
+        "activate_account": {
+            "en": "Activate",
+            "mk": "Регистрирај се",
+            "bs": "Кod",
+            "sq": "Aktivizo"
+        },
+        "available_on_smarttv": {
+            "en": "Available on Smart TV",
+            "mk": "Достапни на СМАРТ ТВ",
+            "bs": "Smart TV",
+            "sq": "E disponueshme në Smart TV"
+        },
+        "accept_newsletter": {
+            "en": "Receive newsletter",
+            "mk": "Известувај ме за новости и промоции",
+            "bs": "Smart TV",
+            "sq": "Më informo për të rejat dhe promocionet"
+        }
+    },
+    "onboarding": {
+        "landing_title": {
+            "en": "Welcome to Digitalb TV!",
+            "mk": "Регистрација",
+            "bs": "Registracija",
+            "sq": "Mirësevini në Digitalb TV!"
+        },
+        "landing_desc": {
+            "en": "Welcome to Digitalb TV - a streaming platform filled with the highest quality channels, Oscar-winning films, fascinating documentaries, festival winners, suspenseful thrillers, incredible true stories and cinema hits! Digitalb is the right place for real tv and vod lovers! Enjoy!",
+            "mk": "Регистрација",
+            "bs": "Registracija",
+            "sq": "Mirë se erdhët në Digitalb TV - platforma televizive me filmat më cilësorë, fitues të Oskar-it, dokumentarë fantastikë, fitues të festivaleve, trailerë emocionues, histori të vërteta dhe hite kinemaje!! Digitalb është vendi i duhur për adhuruesit e vërtetë të filmave! Shikim të këndshëm!"
+        },
+        "landing_btn": {
+            "en": "Activate Device",
+            "mk": "Регистрација",
+            "bs": "Registracija",
+            "sq": "Aktivizo pajisjen"
+        },
+        "form_title": {
+            "en": "Login using username and password",
+            "mk": "Регистрација",
+            "bs": "Registracija",
+            "sq": "Hyni duke përdorur emrin e përdoruesit/email-in dhe fjalëkalimin"
+        },
+        "form_username": {
+            "en": "Enter username",
+            "mk": "Регистрација",
+            "bs": "Registracija",
+            "sq": "Shkruani emrin e përdoruesit"
+        },
+        "form_username_label": {
+            "en": "Username",
+            "mk": "Корисничко име",
+            "bs": "Korisničko ime",
+            "sq": "Emri i përdoruesit/Email-i"
+        },
+        "form_password": {
+            "en": "Enter password",
+            "mk": "Регистрација",
+            "bs": "Registracija",
+            "sq": "Shkruani fjalëkalimin"
+        },
+        "form_password_label": {
+            "en": "Password",
+            "mk": "Лозинка",
+            "bs": "Lozinka",
+            "sq": "Fjalëkalimi"
+        },
+        "form_btn": {
+            "en": "Login",
+            "mk": "Регистрација",
+            "bs": "Registracija",
+            "sq": "Identifikohu"
+        },
+        "code_title": {
+            "en": "Login with device activation code",
+            "mk": "Регистрација",
+            "bs": "Registracija",
+            "sq": "Hyni duke përdorur kodin e aktivizimit të pajisjes"
+        },
+        "code_desc": {
+            "en": "Go to any app and enter activation code:",
+            "mk": "Регистрација",
+            "bs": "Registracija",
+            "sq": "Hyni në aplikacionin DigitAlb në telefonin tuaj dhe në menunë Parametrat/Aktivizimi i Smart TV, vendosni kodin e aktivizimit të mëposhtëm. Më pas televizori juaj do të aktivizohet automatikisht."
+        },
+        "qr_title": {
+            "en": "Open the following url or scan the QR code to go to activation, after activation click on \"Active device\"",
+            "mk": "Регистрација",
+            "bs": "Registracija",
+            "sq": "Nëse ende nuk keni Emrin e Përdoruesit dhe Fjalëkalimin, ju lutemi të skanoni kodin QR ose vizitoni linkun e mëposhtëm për tu regjistruar."
+        },
+        "code_btn": {
+            "en": "Active device",
+            "mk": "Регистрација",
+            "bs": "Registracija",
+            "sq": "Aktivizo pajisjen"
+        },
+        "login_error": {
+            "en": "Wrong entry",
+            "mk": "Регистрација",
+            "bs": "Registracija",
+            "sq": "Hyrja e gabuar"
+        }
+    }
+}

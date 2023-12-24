@@ -162,7 +162,7 @@ class LayoutProvider {
         let backgroundItem = NSCollectionLayoutDecorationItem.background(elementKind: "background")
         backgroundItem.contentInsets = NSDirectionalEdgeInsets(top: 4, leading: 4, bottom: 4, trailing: 4)
         section.decorationItems = [backgroundItem]
-        
+
         return section
     }
     
