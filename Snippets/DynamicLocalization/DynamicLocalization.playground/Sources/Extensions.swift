@@ -1,7 +1,7 @@
 import Foundation
 
 extension String {
-    func localized() -> String {
+    public func localized() -> String {
         guard let bundle = LocalizationManager.shared.getCurrentBundle() else { return self }
         return NSLocalizedString(self, bundle: bundle, value: self, comment: "")
     }
