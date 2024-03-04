@@ -88,7 +88,7 @@ struct ContactsView: View {
     var body: some View {
         NavigationStack(path: $store.scope(state: \.path, action: \.path)) {
             List {
-                ForEach(store.contacts) { contact in
+                ForEach(store.contacts) { contact in(
                     NavigationLink(state: ContactDetailFeature.State(contact: contact)) {
                         HStack {
                             Text(contact.name)

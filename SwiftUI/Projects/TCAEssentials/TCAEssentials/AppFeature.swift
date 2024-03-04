@@ -28,7 +28,7 @@ struct AppFeature {
             CounterFeature()
         }
         Reduce { state, action in
-            // Core logic of the app feature
+            // Core logic of the app feature 
             return .none
         }
     }
