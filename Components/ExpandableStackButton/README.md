@@ -1,3 +1,5 @@
+
+
 # ExpandableStackButton
 
 A flexible iOS component that provides an expandable stack of buttons with smooth animations. Available in both UIKit and SwiftUI implementations.
@@ -6,5 +8,4 @@ The component creates a toggle button that reveals/hides a stack of expandable b
 
 ## Demo
 
-https://github.com/user-attachments/assets/654bb09d-380d-4501-93ed-27856531e395
-
+https://github.com/user-attachments/assets/44c696a2-e586-43b3-918d-7a26f391713b
