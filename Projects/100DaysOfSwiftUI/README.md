@@ -1,4 +1,4 @@
-# 100 Days of SwiftUI
+ # 100 Days of SwiftUI
 
 A comprehensive collection of SwiftUI projects following the [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui) course by Paul Hudson. This repository contains 10 different projects demonstrating various SwiftUI concepts and techniques.
 
@@ -53,9 +53,3 @@ A comprehensive collection of SwiftUI projects following the [100 Days of SwiftU
 - **Focus**: Networking and API integration
 - **Concepts**: URLSession, async/await, JSON encoding
 - **Features**: Online cupcake ordering system
-
-## Resources
-
-- [100 Days of SwiftUI Course](https://www.hackingwithswift.com/100/swiftui)
-- [SwiftUI Documentation](https://developer.apple.com/documentation/swiftui)
-- [Hacking with Swift](https://www.hackingwithswift.com)
