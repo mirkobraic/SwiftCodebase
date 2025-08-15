@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import SnapKit
 
 class ToggleButton: UIView {
     private let button = UIButton()
@@ -55,25 +54,36 @@ extension ToggleButton {
         layer.shadowOpacity = 1
         layer.shadowOffset = CGSize(width: 0, height: 2)
         layer.shadowRadius = 8
-        snp.makeConstraints { make in
-            make.height.width.equalTo(buttonSize)
-        }
+        translatesAutoresizingMaskIntoConstraints = false
+        
+        NSLayoutConstraint.activate([
+            heightAnchor.constraint(equalToConstant: CGFloat(buttonSize)),
+            widthAnchor.constraint(equalToConstant: CGFloat(buttonSize))
+        ])
     }
     private func setupIconView() {
         iconView.image = offImage
+        iconView.translatesAutoresizingMaskIntoConstraints = false
 
         addSubview(iconView)
-        iconView.snp.makeConstraints { make in
-            make.edges.equalToSuperview().inset(8)
-        }
+        NSLayoutConstraint.activate([
+            iconView.topAnchor.constraint(equalTo: topAnchor, constant: 8),
+            iconView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 8),
+            iconView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -8),
+            iconView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -8)
+        ])
     }
 
     private func setupButton() {
         button.addTarget(self, action: #selector(toggleSelection), for: .touchUpInside)
+        button.translatesAutoresizingMaskIntoConstraints = false
 
         addSubview(button)
-        button.snp.makeConstraints { make in
-            make.edges.equalToSuperview()
-        }
+        NSLayoutConstraint.activate([
+            button.topAnchor.constraint(equalTo: topAnchor),
+            button.leadingAnchor.constraint(equalTo: leadingAnchor),
+            button.bottomAnchor.constraint(equalTo: bottomAnchor),
+            button.trailingAnchor.constraint(equalTo: trailingAnchor)
+        ])
     }
 }
