@@ -1,3 +1,3 @@
-# iOS App Dev Tutorials
+# Landmarks
 
-Application made following [Apple's tutorials](https://developer.apple.com/tutorials/app-dev-training)
+Application made following [Apple's tutorials](https://developer.apple.com/tutorials/app-dev-training).
