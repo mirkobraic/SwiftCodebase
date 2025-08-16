@@ -39,19 +39,6 @@ A video game discovery and exploration app built with SwiftUI, featuring game se
 - Navigation and routing
 - Image loading and caching
 
-## Requirements
-
-- iOS 15.0+
-- Swift 5.5+
-- Xcode 13.0+
-
-## Installation
-
-1. Clone the repository
-2. Open `RAWGExplorer.xcodeproj` in Xcode
-3. Build and run the project
-4. No API key required - uses public RAWG API
-
 ## API Usage
 
 The app integrates with the RAWG API for:
@@ -79,11 +66,3 @@ The app integrates with the RAWG API for:
 - Loading states
 - Error handling
 - Responsive design
-
-## Development Notes
-
-This project was created as a job application for Profico, demonstrating:
-- SwiftUI development skills
-- API integration
-- Modern iOS development practices
-- Clean architecture principles
