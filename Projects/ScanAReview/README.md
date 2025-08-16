@@ -1,6 +1,8 @@
+# Scan A Review
+
 A simple iOS app that analyzes text sentiment using machine learning. Scan text from images or type it manually to get instant positive/negative sentiment analysis.
 
-## Features
+### Features
 
 - **Text Input**: Manually enter reviews for sentiment analysis
 - **OCR Scanning**: Scan text from images using the camera
@@ -8,7 +10,7 @@ A simple iOS app that analyzes text sentiment using machine learning. Scan text 
 - **Visual Results**: Color-coded results (green = positive, red = negative)
 - **History**: View all analyzed reviews in a collection view
 
-## Usage
+### Usage
 
 1. Tap the camera button to scan text from an image
 2. Or tap the "+" button to manually enter text
