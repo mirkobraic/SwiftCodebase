@@ -49,30 +49,30 @@ class BussinesCardTableViewController: UITableViewController, BluetoothManagerDe
     
     func fetchBusinessCards() {
         businessCards.append(BusinessCardModel(
-            companyName: "Infobip",
+            companyName: "Company 1",
             companyLogo: "infobip",
-            phoneNumber: "+385 92 435 6654",
-            website: "https://www.infobip.com",
+            phoneNumber: "+385 11 111 1111",
+            website: "www.company1.com",
             linkedin: "",
             color: .orange,
             imageBackgroundColor: .white,
             fontColor: .black))
         
         businessCards.append(BusinessCardModel(
-            companyName: "Evolutio",
+            companyName: "Company 2",
             companyLogo: "evolutio",
-            phoneNumber: "+385 95 504 4493",
-            website: "https://evolutio.hr",
+            phoneNumber: "+385 22 222 2222",
+            website: "www.company2.com",
             linkedin: "",
             color: .white,
             imageBackgroundColor: .black,
             fontColor: .black))
         
         businessCards.append(BusinessCardModel(
-            companyName: "Ericsson",
+            companyName: "Company 3",
             companyLogo: "ericsson",
-            phoneNumber: "+385 91 755 3494",
-            website: "https://www.ericsson.hr",
+            phoneNumber: "+385 33 333 3333",
+            website: "www.company3.com",
             linkedin: "",
             color: UIColor(red: 0.09019608051, green: 0, blue: 0.3019607961, alpha: 1),
             imageBackgroundColor: .white,
