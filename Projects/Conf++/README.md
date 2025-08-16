@@ -22,7 +22,3 @@ Conf++ is designed for tech conferences and business events, providing attendees
 - Bluetooth beacon integration for proximity detection
 - Automatic business card addition when approaching sponsor areas
 - Real-time notifications for room entry/exit
-
-### Screenshots
-<img height="500" alt="Conference Room" src="https://github.com/user-attachments/assets/9ce35502-b233-4d6a-80af-ab1941c10a6c" />
-<img height="500" alt="Business Cards" src="https://github.com/user-attachments/assets/eba59291-ec66-4b8f-848f-daf8c17fa8f8" />
