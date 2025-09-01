@@ -1,4 +1,4 @@
-## PopupSheet (SwiftUI)
+## PopupSheet
 
 A SwiftUI view modifier for presenting a centered popup with a subtle scale + fade transition and a dimmed backdrop. Built on top of `fullScreenCover`.
 
