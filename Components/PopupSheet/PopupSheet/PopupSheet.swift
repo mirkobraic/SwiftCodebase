@@ -21,12 +21,16 @@ extension View {
         onDismiss: (() -> Void)? = nil,
         @ViewBuilder content: @escaping (Item) -> Content
     ) -> some View {
-        fullScreenCover(item: item, onDismiss: onDismiss) { item in
-            PopupSheetView {
-                content(item)
-            }
-        }
-        .transaction { $0.disablesAnimations = true }
+        self
+            .background(
+                Color.clear
+                    .fullScreenCover(item: item, onDismiss: onDismiss) { item in
+                        PopupSheetView {
+                            content(item)
+                        }
+                    }
+                    .transaction { $0.disablesAnimations = true }
+            )
     }
 
 }
